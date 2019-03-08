@@ -1,0 +1,47 @@
+// This is for experiment 1
+//problem 2
+
+#include <iostream>
+#include <conio.h>
+#include <iomanip>
+using namespace std;
+
+int main ()
+{
+	cout << " \t \t \t Volume Calculator" 
+		 << endl;
+	cout << " "
+		 << endl;
+
+	int mass;
+
+	int density;
+
+	cout << "Enter Mass in Grams Here"
+		 << endl;
+	cin >> mass;
+	double mas = mass / 4.00;
+
+	cout << " "
+		 << endl;
+	cout << " "
+		 << endl;
+
+	cout << "Enter Density in Gram per Cubic Centimeter Here"
+		 << endl;
+	cin >> density;
+	
+
+	cout << " "
+		 << endl;
+	cout << " "
+		 << endl;
+
+	double volume = (mass / density);
+		cout << "Total Volume = "
+			 << volume
+			 << endl;
+
+	_getch();
+	return 0;
+}
